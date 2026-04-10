@@ -18,5 +18,6 @@
     echo "<tr><td>Photos : " . $img_1. "</td></tr>";
     echo "<tr><td>Informations complémentaires : " . $infor . "</td></tr>";
     echo "</table>";
+    move_uploaded_file($temp,$distination);
 }
     ?>
